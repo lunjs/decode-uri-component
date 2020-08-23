@@ -1,14 +1,30 @@
 {
   "name": "@lunjs/decode-uri-component",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "fast and safe decodeURIComponent",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "node test.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "jKey Lu <jkeylu@gmail.com> (https://github.com/jkeylu)",
+  "license": "MIT",
   "devDependencies": {
     "fast-decode-uri-component": "^1.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lunjs/decode-uri-component.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lunjs/decode-uri-component/issues"
+  },
+  "homepage": "https://github.com/lunjs/decode-uri-component#readme",
+  "keywords": [
+    "decodeURIComponent",
+    "decode",
+    "uri",
+    "fast",
+    "safe"
+  ]
 }
